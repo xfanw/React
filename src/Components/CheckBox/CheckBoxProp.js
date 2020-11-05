@@ -2,8 +2,9 @@ import React from "react"
 
 //import Joke from "./practice/Joke";
 
-import Item from "./Props/Item"
-import todoData from "./Props/todoData"
+import Item from "../Props/Item"
+import todoData from "../Props/todoData"
+
 function CheckBoxProp() {
     const todoItem = todoData.map((item)=><Item
         key = {item.id}
