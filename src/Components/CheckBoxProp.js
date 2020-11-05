@@ -2,9 +2,9 @@ import React from "react"
 
 //import Joke from "./practice/Joke";
 
-import Item from "./practice/Item"
-import todoData from "./practice/todoData"
-function CheckBox() {
+import Item from "./Props/Item"
+import todoData from "./Props/todoData"
+function CheckBoxProp() {
     const todoItem = todoData.map((item)=><Item
         key = {item.id}
         item = {item}
@@ -61,4 +61,4 @@ function CheckBox() {
 //     )
 // }
 
-export default CheckBox
+export default CheckBoxProp
